@@ -1,0 +1,41 @@
+
+log4j.logger.com.haibsy.framework.dataaccess=ERROR
+log4j.logger.org.tuckey=ERROR
+log4j.logger.com.haibsy.framework.urlrewrite=DEBUG
+
+#ECTable
+log4j.logger.org.extremecomponents=ERROR
+#Spring
+log4j.logger.org.springframework=ERROR
+#Apache
+log4j.logger.org.apache=ERROR
+
+log4j.logger.com.haibsy.eknoware.business.commonmodules.login=ERROR
+
+
+#URL Rewrite
+log4j.logger.org.tuckey=ERROR
+log4j.logger.com.haibsy.framework.urlrewrite=DEBUG
+
+#DataBase
+log4j.logger.com.haibsy.framework.dataaccess=ERROR
+log4j.logger.com.haibsy.framework.dataaccess.basic.BaseDbSupport=ERROR
+log4j.logger.com.haibsy.framework.dataaccess.beansupport=ERROR
+
+#MicroBlog
+log4j.logger.com.haibsy.framework.microblog=ERROR
+
+log4j.logger.com.haibsy.eknoware.business.co.privilege=ERROR
+log4j.logger.com.haibsy.eknoware.business.co.points=ERROR
+
+#debuging all business code
+log4j.logger.com.haibsy.eknoware.business=ERROR
+log4j.logger.com.haibsy.framework.core.basicaction.BaseAction=ERROR
+
+#RootLogger
+log4j.rootLogger=ERROR, appender_c
+
+log4j.appender.appender_c=org.apache.log4j.ConsoleAppender
+log4j.appender.appender_c.layout=org.apache.log4j.PatternLayout
+log4j.appender.appender_c.layout.ConversionPattern=----------- %l %d -----------%n[%5p] %m%n%n
+
